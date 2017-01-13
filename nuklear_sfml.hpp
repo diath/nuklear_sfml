@@ -7,20 +7,20 @@
 #include <SFML/OpenGL.hpp>
 
 NK_API nk_context *nk_sfml_init(sf::RenderWindow *window);
-NK_API void		   nk_sfml_shutdown();
+NK_API void        nk_sfml_shutdown();
 
-NK_API void		   nk_sfml_font_stash_begin(nk_font_atlas **atlas);
-NK_API void		   nk_sfml_font_stash_end();
+NK_API void        nk_sfml_font_stash_begin(nk_font_atlas **atlas);
+NK_API void        nk_sfml_font_stash_end();
 
-NK_API int		   nk_sfml_handle_event(const sf::Event &event);
-NK_API void		   nk_sfml_render(nk_anti_aliasing aa, int max_vertex_buffer, int max_element_buffer);
+NK_API int         nk_sfml_handle_event(const sf::Event &event);
+NK_API void        nk_sfml_render(nk_anti_aliasing aa, int max_vertex_buffer, int max_element_buffer);
 
 NK_API void        nk_sfml_device_create();
 NK_API void        nk_sfml_device_destroy();
 
 // Extras
-NK_API struct nk_image    nk_sfml_image(const sf::Texture &texture);
-NK_API struct nk_image    nk_sfml_image(const sf::Sprite &sprite);
+NK_API struct nk_image nk_sfml_image(const sf::Texture &texture);
+NK_API struct nk_image nk_sfml_image(const sf::Sprite &sprite);
 
 #endif
 
