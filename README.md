@@ -1,3 +1,8 @@
+## NOTICE
+This library is no longer maintained, nuklear now provides support for SFML backend upstream:
+* https://github.com/Immediate-Mode-UI/Nuklear/tree/master/demo/sfml_opengl3
+* https://github.com/Immediate-Mode-UI/Nuklear/tree/master/demo/sfml_opengl2
+
 ## nuklear_sfml
 This is a simple header that provides SFML backend implementation for the [nuklear](https://github.com/vurtun/nuklear) library.
 
